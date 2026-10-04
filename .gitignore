@@ -1,0 +1,11 @@
+# Cache y archivos temporales de Wwise
+.cache/
+.backup/
+*.wsettings
+*.validationcache
+
+# Archivos generados automáticamente (si los compila el motor/integrante)
+GeneratedSoundBanks/
+
+# Archivos de usuario / layouts locales
+*.akuser
