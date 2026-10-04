@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3099A413-953E-4724-86D9-82C38FD2939C}" SchemaVersion="123">
+	<GameParameters>
+		<WorkUnit Name="Region1" ID="{3099A413-953E-4724-86D9-82C38FD2939C}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="ambiente_position" ID="{3B4720F8-8721-46F3-94D3-3A807EFCAF32}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{039CAE01-8F37-4CFD-80CE-F1C00B66AC75}" SchemaVersion="123">
+	<Events>
+		<WorkUnit Name="Region1" ID="{039CAE01-8F37-4CFD-80CE-F1C00B66AC75}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="play_region1" ID="{933F3E08-2BB6-43CB-BC7C-F9B10FCEF6AB}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{451B0D1F-0122-4D16-846C-A4DB0ECEEE1B}" ShortID="127991109">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="3"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+						<Action Name="" ID="{3D518AC8-F926-4795-A224-9EE7C356DAEA}" ShortID="36361319">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="set_ambiente" ID="{8C2818BA-2BC6-4D94-972F-C4B751E13537}" WorkUnitID="{FAE11302-D86F-442A-B814-A9754E120927}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{8419F5E5-C162-480C-ADF1-E04537229C99}" ShortID="866870919">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Region1SwitchContainer" ID="{02E53F2D-3CCC-4F00-8BF3-39B538A058D3}" WorkUnitID="{ACC789F1-B901-4DC8-9C57-0E408642D8E3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{68FEE7B5-8CDD-48A6-9833-BDE8DA9273EF}" ShortID="301891562">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="39"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ambiente_position" ID="{3B4720F8-8721-46F3-94D3-3A807EFCAF32}" WorkUnitID="{3099A413-953E-4724-86D9-82C38FD2939C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="play_region1_ambiente" ID="{8E8B6598-D3F2-4C2A-AD73-D298FBCC7584}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="4"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{1F973A47-550A-4E93-A729-675755B14660}" ShortID="1013941699">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="set_ambiente" ID="{8C2818BA-2BC6-4D94-972F-C4B751E13537}" WorkUnitID="{FAE11302-D86F-442A-B814-A9754E120927}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="play_region1_combate" ID="{1AC09172-5E45-495C-BF5D-FDC6D9900E45}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="12"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{5970D31B-685C-4CDB-B812-52F6A8D1F077}" ShortID="394225057">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="set_combate" ID="{23B58AFB-C7D1-4C73-8DD6-6A9239A58285}" WorkUnitID="{FAE11302-D86F-442A-B814-A9754E120927}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="play_region1_ambiente_avanzado" ID="{7D203A5E-2238-47B5-BBBD-49206912F867}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="4"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{04DE137C-62A8-4E83-96DB-6B3FDA323D2A}" ShortID="944507416">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="set_ambiente_avanzado" ID="{9A8B8A47-AC17-49B9-A292-FE6464979818}" WorkUnitID="{FAE11302-D86F-442A-B814-A9754E120927}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
