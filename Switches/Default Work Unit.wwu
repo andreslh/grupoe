@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{D23F3066-43A2-4856-B71B-70CDFE9C7646}" SchemaVersion="123">
 	<Switches>
-		<WorkUnit Name="Default Work Unit" ID="{D23F3066-43A2-4856-B71B-70CDFE9C7646}" PersistMode="Standalone">
-			<ChildrenList>
-				<WorkUnit Name="Region1" ID="{FAE11302-D86F-442A-B814-A9754E120927}" PersistMode="Reference"/>
-			</ChildrenList>
-		</WorkUnit>
+		<WorkUnit Name="Default Work Unit" ID="{D23F3066-43A2-4856-B71B-70CDFE9C7646}" PersistMode="Standalone"/>
 	</Switches>
 </WwiseDocument>

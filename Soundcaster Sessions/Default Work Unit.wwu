@@ -14,12 +14,24 @@
 							<Position X="1" Y="1"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="play_region2" ID="{85070428-04F9-4930-8695-960B41A81506}" WorkUnitID="{D2783389-AAA9-4EED-A44C-FEBACCEDA8C0}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="close_map" ID="{976C5CD2-8C9F-44B3-8476-D5684E28FA96}" WorkUnitID="{D2783389-AAA9-4EED-A44C-FEBACCEDA8C0}"/>
+							<Position X="1" Y="3"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="play_region1_combate" ID="{1AC09172-5E45-495C-BF5D-FDC6D9900E45}" WorkUnitID="{039CAE01-8F37-4CFD-80CE-F1C00B66AC75}"/>
 							<Position X="2" Y="0"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="play_region1_ambiente_avanzado" ID="{7D203A5E-2238-47B5-BBBD-49206912F867}" WorkUnitID="{039CAE01-8F37-4CFD-80CE-F1C00B66AC75}"/>
 							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="open_map" ID="{D65CB250-99DC-4CE1-AE58-F2DC174EE9E1}" WorkUnitID="{D2783389-AAA9-4EED-A44C-FEBACCEDA8C0}"/>
+							<Position X="2" Y="2"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true"/>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D0CFF427-A295-4B98-8798-5033D406E224}" SchemaVersion="123">
+	<Switches>
+		<WorkUnit Name="Region2" ID="{D0CFF427-A295-4B98-8798-5033D406E224}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="set_music_r2" ID="{F1ED7B37-38CD-4D49-8B22-CF561F54D227}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="set_ambiente" ID="{2C9C00A8-DB8E-4B4C-A859-AC66ECF456A3}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="4"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+						</Switch>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="map" ID="{B6E1F78D-0AC9-497A-8E8D-B5B26E0175AB}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="14"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="open_map" ID="{D552C22C-13E7-4DEC-BB85-CDC7B1BCBAD7}"/>
+						<Switch Name="close_map" ID="{DA239BDC-105A-4345-9A3A-D769ABC56DFF}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

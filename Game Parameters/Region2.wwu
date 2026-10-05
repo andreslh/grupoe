@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1950F60C-A764-4D53-9945-4CEB9B8AD95A}" SchemaVersion="123">
+	<GameParameters>
+		<WorkUnit Name="Region2" ID="{1950F60C-A764-4D53-9945-4CEB9B8AD95A}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="map_visibility" ID="{5DA69B6F-ACED-489F-8E01-2DEADEA837B1}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

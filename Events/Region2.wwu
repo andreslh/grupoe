@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D2783389-AAA9-4EED-A44C-FEBACCEDA8C0}" SchemaVersion="123">
+	<Events>
+		<WorkUnit Name="Region2" ID="{D2783389-AAA9-4EED-A44C-FEBACCEDA8C0}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="play_region2" ID="{85070428-04F9-4930-8695-960B41A81506}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{3C695190-44E1-44D3-9AFF-4FB7583B357C}" ShortID="816122883">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="3"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+						<Action Name="" ID="{42617E63-F3D7-4748-8347-DCF87140B11B}" ShortID="459722524">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="set_ambiente" ID="{2C9C00A8-DB8E-4B4C-A859-AC66ECF456A3}" WorkUnitID="{D0CFF427-A295-4B98-8798-5033D406E224}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{1C49D904-678D-4763-8ECD-F83663EEC80D}" ShortID="397366283">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="close_map" ID="{DA239BDC-105A-4345-9A3A-D769ABC56DFF}" WorkUnitID="{D0CFF427-A295-4B98-8798-5033D406E224}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{64508E1A-09D2-4BDD-8BCE-EF4D879A94A2}" ShortID="911125311">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Region2SwitchContainer" ID="{792DAB67-82CF-4823-9D38-EFBE91ED59C3}" WorkUnitID="{D4E93F2D-B959-4C52-92A9-046B1BDEE96D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="play_region2_ambiente" ID="{AB47666A-C12E-43A1-9DD1-484182E970BB}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="4"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+				</Event>
+				<Event Name="open_map" ID="{D65CB250-99DC-4CE1-AE58-F2DC174EE9E1}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="22"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{F927E483-29B1-4EE5-8FE9-FB8ED2B8200F}" ShortID="1057441082">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="open_map" ID="{D552C22C-13E7-4DEC-BB85-CDC7B1BCBAD7}" WorkUnitID="{D0CFF427-A295-4B98-8798-5033D406E224}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{267AD25E-9C37-4684-A531-465881739CCF}" ShortID="780796490">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="38"/>
+								<Property Name="GameParameterValue" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="map_visibility" ID="{5DA69B6F-ACED-489F-8E01-2DEADEA837B1}" WorkUnitID="{1950F60C-A764-4D53-9945-4CEB9B8AD95A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="close_map" ID="{976C5CD2-8C9F-44B3-8476-D5684E28FA96}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="22"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{10BA571A-FAC8-4355-BB33-F0F426B21D23}" ShortID="1003723054">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="close_map" ID="{DA239BDC-105A-4345-9A3A-D769ABC56DFF}" WorkUnitID="{D0CFF427-A295-4B98-8798-5033D406E224}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{643EA4F8-8111-4E0D-B1AE-27DF1E40447A}" ShortID="688291785">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="38"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="map_visibility" ID="{5DA69B6F-ACED-489F-8E01-2DEADEA837B1}" WorkUnitID="{1950F60C-A764-4D53-9945-4CEB9B8AD95A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

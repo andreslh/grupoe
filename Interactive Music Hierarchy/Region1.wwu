@@ -60,10 +60,11 @@
 										<MusicTransition Name="Transition" ID="{EF6662A6-8E2F-4D55-A683-EA068FFC864B}">
 											<PropertyList>
 												<Property Name="DestinationContextType" Type="int16" Value="2"/>
-												<Property Name="DestinationPlaylistJumpTo" Type="int16" Value="1"/>
 												<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
 												<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
 												<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+												<Property Name="PlayDestinationPreEntry" Type="bool" Value="False"/>
+												<Property Name="PlaySourcePostExit" Type="bool" Value="False"/>
 												<Property Name="SourceContextType" Type="int16" Value="2"/>
 											</PropertyList>
 											<ReferenceList>
@@ -79,6 +80,7 @@
 												<SourceFadeOut>
 													<MusicFade Name="Source Fade-out" ID="{15DDABB2-4D3F-493A-AB70-51C35A546568}">
 														<PropertyList>
+															<Property Name="FadeOffset" Type="Real64" Value="1"/>
 															<Property Name="FadeTime" Type="Real64" Value="2"/>
 															<Property Name="FadeType" Type="int16" Value="1"/>
 														</PropertyList>
@@ -1693,7 +1695,7 @@
 					<ObjectLists>
 						<ObjectList Name="Arguments">
 							<Reference>
-								<ObjectRef Name="set_music" ID="{106BF64F-1191-4581-8AEB-F74DEA2B7E83}" WorkUnitID="{FAE11302-D86F-442A-B814-A9754E120927}"/>
+								<ObjectRef Name="set_music_r1" ID="{106BF64F-1191-4581-8AEB-F74DEA2B7E83}" WorkUnitID="{FAE11302-D86F-442A-B814-A9754E120927}"/>
 							</Reference>
 						</ObjectList>
 						<ObjectList Name="Entries">
