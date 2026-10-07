@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{827F2B1E-A3C2-4FCD-B29B-671B835059B7}" SchemaVersion="123">
+	<Switches>
+		<WorkUnit Name="Region3" ID="{827F2B1E-A3C2-4FCD-B29B-671B835059B7}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="set_music_menu" ID="{69F35A0A-3757-4D9A-B4C1-79510B8FB097}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="set_menu" ID="{86DC6D5C-2C65-41C1-B9CA-BDE6430E850D}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="4"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+						</Switch>
+						<Switch Name="set_submenu" ID="{3A39C2C7-039D-4AF2-BE14-AC05C238FC35}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="12"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+						</Switch>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

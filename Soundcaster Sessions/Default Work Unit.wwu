@@ -3,18 +3,46 @@
 	<SoundcasterSessions>
 		<WorkUnit Name="Default Work Unit" ID="{B0ECA35F-0086-45E1-9492-796A380EE85F}" PersistMode="Standalone">
 			<ChildrenList>
-				<SoundcasterSession Name="Region1" ID="{487509CB-D258-45E0-84B7-5E968B008D03}">
+				<SoundcasterSession Name="Game Events" ID="{487509CB-D258-45E0-84B7-5E968B008D03}">
 					<ModuleList>
 						<Module>
 							<ObjectRef Name="play_region1" ID="{933F3E08-2BB6-43CB-BC7C-F9B10FCEF6AB}" WorkUnitID="{039CAE01-8F37-4CFD-80CE-F1C00B66AC75}"/>
-							<Position X="1" Y="0"/>
+							<Position X="0" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="play_region1_ambiente" ID="{8E8B6598-D3F2-4C2A-AD73-D298FBCC7584}" WorkUnitID="{039CAE01-8F37-4CFD-80CE-F1C00B66AC75}"/>
-							<Position X="1" Y="1"/>
+							<ObjectRef Name="play_region1_combate" ID="{1AC09172-5E45-495C-BF5D-FDC6D9900E45}" WorkUnitID="{039CAE01-8F37-4CFD-80CE-F1C00B66AC75}"/>
+							<Position X="0" Y="1"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="play_region2" ID="{85070428-04F9-4930-8695-960B41A81506}" WorkUnitID="{D2783389-AAA9-4EED-A44C-FEBACCEDA8C0}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="play_region2_combate" ID="{CA55CA07-FE74-4063-B324-A109CE6DDB4E}" WorkUnitID="{D2783389-AAA9-4EED-A44C-FEBACCEDA8C0}"/>
+							<Position X="0" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="play_region2_ambiente" ID="{AB47666A-C12E-43A1-9DD1-484182E970BB}" WorkUnitID="{D2783389-AAA9-4EED-A44C-FEBACCEDA8C0}"/>
+							<Position X="0" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="play_region3" ID="{447A6F42-0B79-4DDD-844D-8982251C3B44}" WorkUnitID="{7A25BCED-2251-40D6-B5CF-659967381E88}"/>
+							<Position X="0" Y="5"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="play_menu" ID="{F6698DC9-EF9B-45B5-A729-39D50D449CEF}" WorkUnitID="{7A25BCED-2251-40D6-B5CF-659967381E88}"/>
+							<Position X="0" Y="6"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="play_region1_ambiente" ID="{8E8B6598-D3F2-4C2A-AD73-D298FBCC7584}" WorkUnitID="{039CAE01-8F37-4CFD-80CE-F1C00B66AC75}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="play_region1_ambiente_avanzado" ID="{7D203A5E-2238-47B5-BBBD-49206912F867}" WorkUnitID="{039CAE01-8F37-4CFD-80CE-F1C00B66AC75}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="open_map" ID="{D65CB250-99DC-4CE1-AE58-F2DC174EE9E1}" WorkUnitID="{D2783389-AAA9-4EED-A44C-FEBACCEDA8C0}"/>
 							<Position X="1" Y="2"/>
 						</Module>
 						<Module>
@@ -22,16 +50,8 @@
 							<Position X="1" Y="3"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="play_region1_combate" ID="{1AC09172-5E45-495C-BF5D-FDC6D9900E45}" WorkUnitID="{039CAE01-8F37-4CFD-80CE-F1C00B66AC75}"/>
-							<Position X="2" Y="0"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="play_region1_ambiente_avanzado" ID="{7D203A5E-2238-47B5-BBBD-49206912F867}" WorkUnitID="{039CAE01-8F37-4CFD-80CE-F1C00B66AC75}"/>
-							<Position X="2" Y="1"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="open_map" ID="{D65CB250-99DC-4CE1-AE58-F2DC174EE9E1}" WorkUnitID="{D2783389-AAA9-4EED-A44C-FEBACCEDA8C0}"/>
-							<Position X="2" Y="2"/>
+							<ObjectRef Name="play_submenu" ID="{A1BFE1D3-B98C-4ADA-951A-342E21F658C0}" WorkUnitID="{7A25BCED-2251-40D6-B5CF-659967381E88}"/>
+							<Position X="1" Y="5"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true"/>

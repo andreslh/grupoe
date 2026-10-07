@@ -15,6 +15,12 @@
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
 							</PropertyList>
 						</Switch>
+						<Switch Name="set_combate" ID="{CD64B09A-2A60-4BE5-BF09-9ACD7FCA2637}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="12"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+						</Switch>
 					</ChildrenList>
 				</SwitchGroup>
 				<SwitchGroup Name="map" ID="{B6E1F78D-0AC9-497A-8E8D-B5B26E0175AB}">

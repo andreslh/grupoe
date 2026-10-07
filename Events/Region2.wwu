@@ -49,6 +49,38 @@
 						<Property Name="Color" Type="int16" Value="4"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{F8B7DB46-3871-48BD-9CC9-A66A1863C8FE}" ShortID="651785233">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="close_map" ID="{DA239BDC-105A-4345-9A3A-D769ABC56DFF}" WorkUnitID="{D0CFF427-A295-4B98-8798-5033D406E224}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{297CC129-81E1-457A-85B4-4CD0F812CBA3}" ShortID="174906322">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="set_ambiente" ID="{2C9C00A8-DB8E-4B4C-A859-AC66ECF456A3}" WorkUnitID="{D0CFF427-A295-4B98-8798-5033D406E224}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{40D8EE02-3B2B-4563-95EE-9AC38DD1BD16}" ShortID="324371836">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="39"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="map_visibility" ID="{5DA69B6F-ACED-489F-8E01-2DEADEA837B1}" WorkUnitID="{1950F60C-A764-4D53-9945-4CEB9B8AD95A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
 				</Event>
 				<Event Name="open_map" ID="{D65CB250-99DC-4CE1-AE58-F2DC174EE9E1}">
 					<PropertyList>
@@ -102,6 +134,24 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="map_visibility" ID="{5DA69B6F-ACED-489F-8E01-2DEADEA837B1}" WorkUnitID="{1950F60C-A764-4D53-9945-4CEB9B8AD95A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="play_region2_combate" ID="{CA55CA07-FE74-4063-B324-A109CE6DDB4E}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="12"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{B9F96D3E-7A44-4B49-9D1F-9D597AF3C99D}" ShortID="507811921">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="set_combate" ID="{CD64B09A-2A60-4BE5-BF09-9ACD7FCA2637}" WorkUnitID="{D0CFF427-A295-4B98-8798-5033D406E224}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
