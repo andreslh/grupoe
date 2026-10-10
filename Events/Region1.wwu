@@ -26,13 +26,6 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
-						<Action Name="" ID="{8419F5E5-C162-480C-ADF1-E04537229C99}" ShortID="866870919">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Region1SwitchContainer" ID="{02E53F2D-3CCC-4F00-8BF3-39B538A058D3}" WorkUnitID="{ACC789F1-B901-4DC8-9C57-0E408642D8E3}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
 						<Action Name="" ID="{68FEE7B5-8CDD-48A6-9833-BDE8DA9273EF}" ShortID="301891562">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="38"/>
@@ -40,6 +33,13 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="ambiente_position" ID="{3B4720F8-8721-46F3-94D3-3A807EFCAF32}" WorkUnitID="{3099A413-953E-4724-86D9-82C38FD2939C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{8419F5E5-C162-480C-ADF1-E04537229C99}" ShortID="866870919">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Region1SwitchContainer" ID="{02E53F2D-3CCC-4F00-8BF3-39B538A058D3}" WorkUnitID="{ACC789F1-B901-4DC8-9C57-0E408642D8E3}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -69,6 +69,13 @@
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ChildrenList>
+						<Action Name="" ID="{4B7E6DF8-4F40-41AA-BF12-1F3679EAC493}" ShortID="964023145">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Stinger a combate region 1" ID="{2E9C4A52-E84F-4466-9E86-6C1AEDEFD60D}" WorkUnitID="{085CEF80-EFD8-4643-B2E9-F52E708A4739}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 						<Action Name="" ID="{5970D31B-685C-4CDB-B812-52F6A8D1F077}" ShortID="394225057">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="23"/>

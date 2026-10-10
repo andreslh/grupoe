@@ -25,7 +25,18 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{05000D53-4CA1-487A-B7F6-FEBE7205864E}" ShortID="441936180">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Stinger a menu" ID="{2F0A7D52-1FED-4A6D-B00A-172BCD4060B1}" WorkUnitID="{085CEF80-EFD8-4643-B2E9-F52E708A4739}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 						<Action Name="" ID="{08ED4C94-00E4-4303-B999-6EAAE4B11A15}" ShortID="887195052">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Region3_SwitchContainer" ID="{BF1129A6-0374-46D6-8EB4-0FDED6FD32B0}" WorkUnitID="{96209B36-415D-4E5A-BE69-49DBB8F07383}"/>

@@ -50,6 +50,13 @@
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ChildrenList>
+						<Action Name="" ID="{F565F6D2-7539-4BDF-8510-7EACA3A218A8}" ShortID="745967602">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Stinger a ambiente region 2" ID="{5350E281-837C-4DF9-B5E1-147A8B3FC2F4}" WorkUnitID="{085CEF80-EFD8-4643-B2E9-F52E708A4739}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 						<Action Name="" ID="{F8B7DB46-3871-48BD-9CC9-A66A1863C8FE}" ShortID="651785233">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="23"/>
@@ -145,9 +152,17 @@
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ChildrenList>
+						<Action Name="" ID="{4846033B-A97C-4C17-BE99-1DE4D10FF310}" ShortID="989166957">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Stinger a combate region 2" ID="{53F29D5F-C64B-4F6E-9B11-9015FAB01BC2}" WorkUnitID="{085CEF80-EFD8-4643-B2E9-F52E708A4739}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 						<Action Name="" ID="{B9F96D3E-7A44-4B49-9D1F-9D597AF3C99D}" ShortID="507811921">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="23"/>
+								<Property Name="Delay" Type="Real64" Value="0.3"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
